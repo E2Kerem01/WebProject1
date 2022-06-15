@@ -51,6 +51,22 @@
     border: 0.5px solid #336ea2;
 }
 
+.btn-dark {
+    background: #333;
+
+}
+
+.btn-dark:hover {
+    color: #333;
+    background: #fff;
+    border: 0.5px solid #333;
+}
+
+.btn-block {
+    width: 100%;
+    text-align: center;
+}
+
 /* Container */
 
 .container {

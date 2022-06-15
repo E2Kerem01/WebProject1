@@ -73,17 +73,30 @@ a{
     font-style: italic;
 }
 
-#home a{
-    margin-top: 1.25rem;
-    background: #336ea2;
-    padding: 0.8rem 3rem;
-    border-radius: 5px solid;
-    letter-spacing: 0.5px;
+/** Training */
+
+#training {
+    color: white;
+    padding: 1rem;
 
 }
 
-#home a:hover {
-    color: #336ea2;
-    background: #fff;
-    border: 0.5px solid #336ea2;
+#training .items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 }
+
+#training .items .item  {
+    width: 33%;
+    text-align: center;
+    padding: 0.5rem;
+
+}
+
+#training .items .item:hover {
+    color: rebeccapurple;
+    opacity: 0.7;
+}
+
