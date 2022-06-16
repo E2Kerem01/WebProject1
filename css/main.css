@@ -102,36 +102,36 @@ a{
 
 /* Courses */
 
-#courses {
+#course {
     color: #333;
     padding: 1rem;
 }
 
-.courses {
+.course {
     display: flex;
     flex-direction: column;
     padding: 1rem;
 }
 
-.courses .course {
+.course .course {
     display: flex;
     padding: 0.5rem;
     margin-bottom: 0.5rem;
 
 }
 
-.courses .course .course-image {
+.course .course .course-image {
     margin-right: 0.5rem;
     position: relative;
 
 }
 
-.courses .course .course-image img {
+.course .course .course-image img {
     border-radius: 5px;
     
 }
 
-.courses .course .course-image span {
+.course .course .course-image span {
     background: red;
     padding: 0.25rem;
     color: white;
@@ -141,25 +141,25 @@ a{
     left: 0;
 }
 
-.courses .course .course-info .title {
+.course .course .course-info .title {
     letter-spacing: 1.2px;
     margin-bottom: 0.25rem;
     font-weight: 700;
 }
 
-.courses .course .course-info .description {
+.course .course .course-info .description {
     letter-spacing: 1.2px;
     margin-bottom: 0.25rem;
     opacity: 0.6;
 }
 
-.courses .course .course-info .Instructor {
+.course .course .course-info .Instructor {
     font-size: 0.8rem;
     margin-bottom: 0.25rem;
     opacity: 0.6;
 }
 
-.courses .course .course-info .Rating {
+.course .course .course-info .Rating {
     font-size: 0.8rem;
     margin-bottom: 0.25rem;
     opacity: 0.6;
@@ -181,5 +181,5 @@ a{
     margin-right: auto;
     display: flex;
     flex-direction: column;
-    
+
 }
